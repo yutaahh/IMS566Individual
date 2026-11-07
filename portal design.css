@@ -1,0 +1,18 @@
+body {
+  /* Deep maroon base background color */
+  background-color: #5B1E31; 
+  
+  /* Layering multiple radial gradients to mimic watercolor splotches */
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(200, 142, 167, 0.6) 0%, transparent 40%),
+    radial-gradient(circle at 85% 80%, rgba(120, 35, 55, 0.8) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(220, 160, 180, 0.4) 0%, transparent 60%),
+    radial-gradient(circle at 80% 20%, rgba(90, 20, 40, 0.7) 0%, transparent 45%);
+    
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+
+  
+}
